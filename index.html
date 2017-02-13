@@ -40,6 +40,15 @@
   height: auto;
   width: 100%;
 }
+
+.navbar-inverse .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    background-color: transparent;
+}
+
 .nav-justified {
   width: 70%;
 }
@@ -54,11 +63,11 @@
   background-color: #134881;
 }
 #nav.affix {
-  height:100px;
-  padding:15px 0px 0px 200px;
+  position: relative;
+  min-height:100px;
   background-image: url('bigfoot.png');
   background-repeat:no-repeat;
-  background-position: 5% 18px;
+
 }
 .navbar-collapse.in {
   overflow-y: visible;
